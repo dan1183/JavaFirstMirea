@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ru.mirea.task22</OriginalElement>
+  <nodes>
+    <node x="-112.0" y="217.0">ru.mirea.task22.MagicChair</node>
+    <node x="196.0" y="217.0">ru.mirea.task22.MultifunctionalChair</node>
+    <node x="-112.0" y="64.0">ru.mirea.task22.MagicChairFabric</node>
+    <node x="-112.0" y="291.0">ru.mirea.task22.Client</node>
+    <node x="317.0" y="64.0">ru.mirea.task22.VictorianChairFabric</node>
+    <node x="62.5" y="138.0">ru.mirea.task22.Chair</node>
+    <node x="73.0" y="64.0">ru.mirea.task22.MultifunctionalChairFabric</node>
+    <node x="123.0" y="-15.0">ru.mirea.task22.ChairFabric</node>
+    <node x="33.0" y="217.0">ru.mirea.task22.VictorianChair</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ru.mirea.task22.VictorianChair" target="ru.mirea.task22.Chair" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ru.mirea.task22.VictorianChairFabric" target="ru.mirea.task22.ChairFabric" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="408.5" y="39.0" />
+      <point x="185.0" y="39.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ru.mirea.task22.MultifunctionalChairFabric" target="ru.mirea.task22.ChairFabric" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ru.mirea.task22.MultifunctionalChair" target="ru.mirea.task22.Chair" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="288.0" y="192.0" />
+      <point x="104.5" y="192.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ru.mirea.task22.MagicChair" target="ru.mirea.task22.Chair" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="-49.5" y="192.0" />
+      <point x="104.5" y="192.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ru.mirea.task22.MagicChairFabric" target="ru.mirea.task22.ChairFabric" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="-29.5" y="39.0" />
+      <point x="185.0" y="39.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="194.0" y="152.5" />
+  <SelectedNodes>
+    <node>ru.mirea.task22.MultifunctionalChair</node>
+    <node>ru.mirea.task22.VictorianChairFabric</node>
+    <node>ru.mirea.task22.Chair</node>
+    <node>ru.mirea.task22.MagicChairFabric</node>
+    <node>ru.mirea.task22.VictorianChair</node>
+    <node>ru.mirea.task22.ChairFabric</node>
+    <node>ru.mirea.task22.Client</node>
+    <node>ru.mirea.task22.MagicChair</node>
+    <node>ru.mirea.task22.MultifunctionalChairFabric</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
